@@ -38,16 +38,16 @@ sup{color:darkblue;
   font-size: 1.5em;}
 
 a {Color:blue;
-font-size:1.8em;
+font-size:1.2em;
   font-weight:400;}
 
 a:hover {Color:goldenrod;
 font-size:2em;
-  font-weight:400; line-height:3.5em;}
+  font-weight:400;}
 
 a:visited {Color:purple;
 font-size:1.8em;
-  font-weight:400; line-height:3.5em;}
+  font-weight:400;}
 h3 {color:darkgreen;}
 
 p {color:black; 
@@ -62,10 +62,6 @@ h4 {color:red;}
 
 sup{color:darkblue;
   font-size: 1.5em;}
-
-a {Color:blue;
-font-size:1.8em;
-  font-weight:400; line-height:3.5em;}
 
   img#herbs {  
     width: 30%;  
