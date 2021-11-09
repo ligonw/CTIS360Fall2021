@@ -73,3 +73,20 @@ font-size:1.8em;
 img.float {  
   width: 30%;  
 }
+/* _________ */
+
+header, footer {
+  display: flex;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+      border: 1px solid brown;
+  background-color: wheat;
+}
+
+div.nav {
+  width: 30%;
+   /*  border: 2px dotted black;*/
+  text-align: center;
+  font-size: 2.5vw;
+}
