@@ -70,4 +70,6 @@ font-size:1.8em;
   img#herbs {  
     width: 30%;  
 }
-
+img.float {  
+  width: 30%;  
+}
