@@ -101,13 +101,13 @@ img.ChickTempRec {
 }
 
 img.HomeBanner {  
+  position:absolute;
   width: 30%;
-  justify-content: center;
-  align-items: center;  
+  
 }
 
 img.WhatisPerm {  
+  position:absolute;
   width: 30%;
-  justify-content: center;
-  align-items: center;  
+  
 }
