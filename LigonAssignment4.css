@@ -79,6 +79,8 @@ header, footer {
   align-items: center;
   border: 1px solid brown;
   background-color: wheat;
+  /*____*/
+  position: relative;
 }
 
 div.nav {
@@ -102,12 +104,12 @@ img.ChickTempRec {
 
 img.HomeBanner {  
   position:absolute;
-  width: 30%;
-  
+  width: 30%
+  justify-content: center;  
 }
 
 img.WhatisPerm {  
   position:absolute;
   width: 30%;
-  
+  justify-content: center;
 }
