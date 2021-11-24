@@ -77,7 +77,7 @@ header, footer {
   height: 8em;
   justify-content: center;
   align-items: center;
-      border: 1px solid brown;
+  border: 1px solid brown;
   background-color: wheat;
 }
 
@@ -95,6 +95,18 @@ div.nav {
 }  
 
 img.ChickTempRec {  
+  width: 30%;
+  justify-content: center;
+  align-items: center;  
+}
+
+img.HomeBanner {  
+  width: 30%;
+  justify-content: center;
+  align-items: center;  
+}
+
+img.WhatisPerm {  
   width: 30%;
   justify-content: center;
   align-items: center;  
