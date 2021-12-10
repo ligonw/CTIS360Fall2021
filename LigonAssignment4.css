@@ -113,3 +113,7 @@ img.WhatisPerm {
   width: 30%;
   justify-content: center;
 }
+
+.placeholderRed {
+  background:pink;
+}
