@@ -1,9 +1,12 @@
+const fields = new Object();
+
 document.addEventListener("DOMContentLoaded", function() {
  fields.firstName = document.getElementById('firstName');
  fields.lastName = document.getElementById('lastName');
  fields.email = document.getElementById('email');
   fields.question = document.getElementById('question');
 })
+
 function isNotEmpty(value) {
  if (value == null || typeof value == 'undefined' ) return false;
  return (value.length > 0);
@@ -26,12 +29,12 @@ function isValid() {
  valid &= fieldValidation(fields.firstName, isNotEmpty);
  valid &= fieldValidation(fields.lastName, isNotEmpty);
  valid &= fieldValidation(fields.email, isNotEmpty);
-  valid &= fieldValidation(fields.question, isNotEmpty);
+ valid &= fieldValidation(fields.question, isNotEmpty);
 
  return valid;
 }
 class User {
- constructor(firstName, lastName, gender, address, country, email, newsletter, question) {
+ constructor(firstName, lastName, email, question) {
  this.firstName = firstName;
  this.lastName = lastName;
   this.email = email;
