@@ -103,7 +103,7 @@ img.ChickTempRec {
 }
 
 img.HomeBanner {  
-  position:absolute;
+  position: relative;
   width: 30%;
   justify-content: center;  
 }
