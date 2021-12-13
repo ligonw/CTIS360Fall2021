@@ -117,3 +117,11 @@ img.WhatisPerm {
 .placeholderRed {
   background:pink;
 }
+
+/* add CSS media query that reduces the margin size when the window is narrow */
+@media (max-width: 1000px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
