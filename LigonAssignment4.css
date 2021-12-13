@@ -81,6 +81,9 @@ header, footer {
   background-color: wheat;
   /*____*/
   position: relative;
+    /*  */
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 div.nav {
@@ -94,6 +97,7 @@ div.nav {
   justify-content: center;
   align-items: center; 
   flex-direction: row;
+  /*  */
   margin-left: 5%;
   margin-right: 5%;
 }  
@@ -105,9 +109,12 @@ img.ChickTempRec {
 }
 
 img.HomeBanner {  
-  position: relative;
+  /*  */position: relative;
   width: 30%;
-  justify-content: center;  
+  justify-content: center;
+  /*  */
+  margin-left: 5%;
+  margin-right: 5%;  
 }
 
 img.WhatisPerm {  
