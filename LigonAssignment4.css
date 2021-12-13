@@ -79,11 +79,10 @@ header, footer {
   align-items: center;
   border: 1px solid brown;
   background-color: wheat;
-  /*____*/
-  position: relative;
-    /*  */
+  /*____*/ position: relative;
+    /*  
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%;*/
 }
 
 div.nav {
@@ -97,10 +96,7 @@ div.nav {
   justify-content: center;
   align-items: center; 
   flex-direction: row;
-  /*  */
-  margin-left: 5%;
-  margin-right: 5%;
-}  
+  }  
 
 img.ChickTempRec {  
   width: 30%;
@@ -112,9 +108,9 @@ img.HomeBanner {
   /*  */position: relative;
   width: 30%;
   justify-content: center;
-  /*  */
+  /*  
   margin-left: 5%;
-  margin-right: 5%;  
+  margin-right: 5%;  */
 }
 
 img.WhatisPerm {  
@@ -128,9 +124,10 @@ img.WhatisPerm {
 }
 
 /* add CSS media query that reduces the margin size when the window is narrow */
-@media (max-width: 1000px) {
+@media (max-width: 750px) {
   body {
     margin-left: 5%;
     margin-right: 5%;
   }
+
 }
