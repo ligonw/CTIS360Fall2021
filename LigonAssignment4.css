@@ -94,6 +94,8 @@ div.nav {
   justify-content: center;
   align-items: center; 
   flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
 }  
 
 img.ChickTempRec {  
