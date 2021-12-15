@@ -106,7 +106,7 @@ img.ChickTempRec {
 
 img.HomeBanner {  
   /*  */position: relative;
-  width: 30%;
+  width: 100vw;
   justify-content: center;
   /*  
   margin-left: 5%;
