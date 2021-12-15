@@ -136,5 +136,8 @@ img.WhatisPerm {
   header, footer {
     justify-content: space-around;
   }
+  div.nav {
+      width: 10%;
+      font-size: 0.9em;
 
 }
