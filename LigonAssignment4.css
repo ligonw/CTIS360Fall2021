@@ -124,7 +124,7 @@ img.WhatisPerm {
 }
 
 /* add CSS media query that reduces the margin size when the window is narrow */
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   body {
     margin-left: 5%;
     margin-right: 5%;
