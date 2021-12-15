@@ -129,5 +129,12 @@ img.WhatisPerm {
     margin-left: 5%;
     margin-right: 5%;
   }
+  img.HomeBanner {
+    width: 10%;
+  justify-content: center;
+  }
+  header, footer {
+    justify-content: space-around;
+  }
 
 }
