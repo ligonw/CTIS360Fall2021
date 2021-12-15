@@ -90,7 +90,7 @@ div.nav {
   width: 30%;
   border: 1px solid black;
   text-align: center;
-  font-size: 0.9vw;
+  font-size: 0.9em;
   height: 95%;
   width: calc(30% - 20px);
   justify-content: center;
@@ -129,9 +129,5 @@ img.WhatisPerm {
     margin-left: 5%;
     margin-right: 5%;
   }
-  img.HomeBanner {
-    width: 10%;
-  justify-content: center;
-  }
-
+ 
 }
